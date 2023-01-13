@@ -11,10 +11,8 @@ class App
             ctx.fill();
         }
         for (let i = 0; i < 200; i++) {
-            // generate random x and y values
             const x = Math.random() * canvas.width;
             const y = Math.random() * canvas.height;
-            // call drawCircle function with random x and y values
             drawCircle(x, y);
         }
     }
