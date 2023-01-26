@@ -1,4 +1,4 @@
-class HuisRenderer{
+export class HuisRenderer{
     tekenHuis(x,y,g)
     {
        

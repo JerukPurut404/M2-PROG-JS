@@ -1,4 +1,4 @@
-class BoomRenderer{
+export class BoomRenderer{
     tekenKerstBoom(x,y,g) {
         g.fillStyle = "brown";
         g.fillRect(x, y, 20, 100);
